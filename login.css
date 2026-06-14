@@ -1,0 +1,75 @@
+.form-container{
+    width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* background-color: green; */
+    border: 1px solid #ccc;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container .form-control , .forgot-password{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.form-control label{
+    display: block;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-control input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-control .btnlogin{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.form-control .btnlogin:hover{
+    background-color: green;
+}
+
+.forgot-password{
+    display: flex;
+    justify-content: center;
+}
+.forgot-password a{
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.forgot-password a:last-child{
+    text-decoration: underline;
+}
+
+.forgot-password:last-child{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    
+}
